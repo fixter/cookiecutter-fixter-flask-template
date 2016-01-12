@@ -23,11 +23,12 @@ To install the python libraries:
     pycharm or intellij will ask to install the missing requirements.
 - If you aren't using a jetbrains ide then create a python virtual environment on the command line inside the project by
     typing ```virtualenv ENV``` which will create a folder called ENV. I guess you can name your virtual environment whatever you want, but
-    for git purposes just use ENV.
+    for git purposes just use ENV. If you want to call it something else, remember to add it to the .gitignore file.
     To start using your virtual environment you have to activate it. You do this with ```source ENV/bin/activate```.
     This changes your global path so now you are looking at a vanilla instance of python located in your ENV folder.
     Now any libraries you install will go into this virtual env. To install all the libraries, do ```pip install -r requirements.txt```.
-    When you are done using this virtual env you should deactivate it with ```deactivate```
+    When you are done using this virtual env you should deactivate it with ```deactivate```. If you are using,
+    Windows the activate script will be run by ```source ENV/Scripts/activate```
     
 Now you should have all the necessary python dependencies.
 
