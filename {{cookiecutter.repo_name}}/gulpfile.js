@@ -21,7 +21,7 @@ gulp.task('clean', function(done){
    del(['build'], done);
 });
 
-gulp.task('scss', function() {
+gulp.task('sass', function() {
     return gulp.src('static/scss/app.scss')
         .pipe(plugins.sass({
                 includePaths: sassPaths
@@ -42,7 +42,7 @@ gulp.task('react', function() {
 });
 
 gulp.task('watch', function(){
-    gulp.watch(['static/**/*.scss'], ['scss']);
+    gulp.watch(['static/**/*.scss'], ['sass']);
     gulp.watch(['static/**/*.js', '!static/build/*.js'], ['react']);
 });
 
