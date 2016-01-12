@@ -1,6 +1,6 @@
 {
   "name": "{{cookiecutter.app_title}}",
-  "description": "{{cookiecutter.short_description",
+  "description": "{{cookiecutter.short_description}}",
   "author": "{{cookiecutter.full_name}}",
   "version": "0.1.0",
   "main": "static/js/app.js",

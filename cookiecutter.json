@@ -1,0 +1,9 @@
+{
+  "full_name": "Geoffrey Gross",
+  "email": "geoffreyrgross@gmail.com",
+  "repo_name": "fixter_flask_template",
+  "version": "0.1.0",
+  "app_title": "Fixter Flask Template",
+  "app_class_name": "FixterFlaskTemplate",
+  "short_description": "A template project structure for Fixter Flask projects."
+}
