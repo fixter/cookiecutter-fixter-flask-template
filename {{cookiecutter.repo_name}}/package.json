@@ -1,5 +1,5 @@
 {
-  "name": "{{cookiecutter.app_title}}",
+  "name": "{{cookiecutter.app_class_name}}",
   "description": "{{cookiecutter.short_description}}",
   "author": "{{cookiecutter.full_name}}",
   "version": "0.1.0",
